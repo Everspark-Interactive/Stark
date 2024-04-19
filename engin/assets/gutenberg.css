@@ -1,0 +1,214 @@
+.post-type-post .editor-post-title__block .editor-post-title__input {
+  font-family: "Heebo", Helvetica, Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+  text-transform: none !important;
+  color: #222c38;
+}
+
+.post-type-post .editor-styles-wrapper h1 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: -1px;
+  color: #222c38;
+}
+
+.post-type-post .editor-styles-wrapper h2 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: #222c38;
+}
+
+.post-type-post .editor-styles-wrapper h3 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -.2px;
+  color: #222c38;
+}
+
+.post-type-post .editor-styles-wrapper h4 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #222c38;
+}
+
+.post-type-post .editor-styles-wrapper h5 {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.post-type-post .editor-styles-wrapper h6 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.post-type-post .editor-styles-wrapper p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #5e7281;
+  -webkit-font-smoothing: antialiased;
+}
+
+.post-type-post .editor-styles-wrapper {
+  font-family: "Heebo", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #5e7281;
+}
+
+.post-type-post .editor-styles-wrapper a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.post-type-post .editor-styles-wrapper a:hover {
+  color: #fff;
+}
+
+.post-type-post .editor-styles-wrapper .editor-post-title {
+  background-color: #f8fafb;
+  border: none;
+  padding: 50px 15px 15px 15px;
+}
+
+.post-type-post .edit-post-layout__content {}
+
+.post-type-post .wp-block {
+  max-width: 1170px;
+}
+
+.block-editor .wp-block-quote {
+  border-left: 5px solid #ff844a;
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+}
+
+.block-editor .editor-styles-wrapper p {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.block-editor .wp-block-quote__citation {
+  font-size: 17.5px;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.block-editor .editor-styles-wrapper [data-block] {
+  margin: 0;
+}
+
+@media (min-width: 600px) {
+  .block-editor-block-list__layout {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.wp-block-image figcaption {
+  font-size: 16px !important;
+  font-weight: 400;
+  line-height: 30px;
+  -webkit-font-smoothing: antialiased;
+  color: #5e7281 !important;
+  margin-bottom: 2em !important;
+}
+
+.wp-block-cover__inner-container p {
+  color: #fff !important;
+  font-size: 32px !important;
+  font-weight: 400;
+  line-height: 40px !important;
+  z-index: 1;
+  margin-bottom: 0 !important;
+  padding: 14px !important;
+}
+
+[data-align=left] .wp-block-cover {
+  max-width: calc(4*(100vw/12));
+}
+
+.wp-block-cover {
+  margin-bottom: 32px;
+}
+
+.alignwide {
+  margin-bottom: 20px;
+}
+
+figure.wp-block-gallery.alignleft {
+  margin-right: 1.5em;
+}
+
+.blocks-gallery-caption {
+  font-size: 14px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  color: #5e7281;
+}
+
+.editor-styles-wrapper h2 {
+  margin: 0 0 10px 0 !important;
+}
+
+.block-editor-block-list__block-edit {
+  line-height: 30px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.block-editor .wp-block-separator {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+  max-width: 100% !important;
+}
+
+.block-editor .wp-block-pullquote {
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.block-editor .wp-block-pullquote blockquote {
+  border-left: 5px solid #ff844a;
+  margin: 0 0 20px;
+}
+
+.block-editor .wp-block-pullquote blockquote p {
+  font-size: 28px;
+  line-height: 1.6;
+}
+
+.block-editor .wp-block-pullquote .wp-block-pullquote__citation {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  color: #5e7281;
+  text-transform: none;
+}
+
+.edit-post-visual-editor .block-editor-block-list__layout>.block-editor-block-list__block[data-align=left]:first-child, .edit-post-visual-editor .block-editor-block-list__layout>.block-editor-block-list__block[data-align=right]:first-child {
+  margin-top: 0;
+}
+
+@media (min-width: 600px) {
+  .block-editor-block-list__layout .block-editor-block-list__block[data-align=full] {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .block-editor-block-list__layout .block-editor-block-list__block[data-align=full] [data-block] {
+    margin: 0 14px;
+  }
+}
